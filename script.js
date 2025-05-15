@@ -29,11 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
 const teams = [
     { name: "ASAL", logo: "./asal.jpeg", mp: 1, w: 0, d: 0, l: 1, gf: 3, ga: 5, gd: -2, pts: 0 },
     { name: "BIKASH", logo: "bikash.jpeg", mp: 1, w: 1, d: 0, l: 0, gf: 5, ga: 3, gd: 2, pts: 3 },
-    { name: "PARU DAI", logo: "parudai.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+    { name: "PARU DAI", logo: "parudai.jpeg", mp: 1, w: 1, d: 0, l: 0, gf: 5, ga: 1, gd: 4, pts: 3 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 1, w: 1, d: 0, l: 0, gf: 5, ga: 2, gd: 3, pts: 3 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-    { name: "DEV", logo: "dev.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-    { name: "ANISH", logo: "anish.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+    { name: "DEV", logo: "dev.jpeg", mp: 1, w: 1, d: 0, l: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
+    { name: "ANISH", logo: "anish.jpeg", mp: 2, w: 0, d: 0, l: 2, gf: 2, ga: 8, gd: -6, pts: 0 },
     { name: "RAAJ", logo: "raaj.jpeg", mp: 1, w: 0, d: 0, l: 1, gf: 2, ga: 5, gd: -3, pts: 0 },
     { name: "BINAYA", logo: "binaya.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
 ];
