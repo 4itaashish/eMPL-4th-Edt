@@ -119,8 +119,5 @@ document.addEventListener('DOMContentLoaded', function() {
     updateStandingsTable();
     
     // For demo purposes - remove the setTimeout or reduce the delay
-    setTimeout(() => {
-        // Update team stats (keep your existing updates)
-        updateStandingsTable();
-    }, 1000); // Reduced from 1000000000 to 1000ms
+    // Reduced from 1000000000 to 1000ms
 });
