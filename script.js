@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Team data - replace with your actual data
 const teams = [
-    { name: "ASAL", logo: "./asal.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-    { name: "BIKASH", logo: "bikash.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+    { name: "ASAL", logo: "./asal.jpeg", mp: 1, w: 0, d: 0, l: 1, gf: 3, ga: 5, gd: -2, pts: 0 },
+    { name: "BIKASH", logo: "bikash.jpeg", mp: 1, w: 1, d: 0, l: 0, gf: 5, ga: 3, gd: 2, pts: 3 },
     { name: "PARU DAI", logo: "parudai.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
