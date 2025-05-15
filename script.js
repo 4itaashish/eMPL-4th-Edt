@@ -121,3 +121,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // For demo purposes - remove the setTimeout or reduce the delay
     // Reduced from 1000000000 to 1000ms
 });
+
+
+function updateStandingsTable() {
+    console.log("Updating standings with teams:", teams); // Add this line
+    const sortedTeams = sortAndRankTeams();
+    // ... rest of your function
+}
