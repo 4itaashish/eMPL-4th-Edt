@@ -122,5 +122,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
         // Update team stats (keep your existing updates)
         updateStandingsTable();
-    }, 10); // Reduced from 1000000000 to 1000ms
+    }, 1000); // Reduced from 1000000000 to 1000ms
 });
