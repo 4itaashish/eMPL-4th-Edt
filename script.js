@@ -31,8 +31,8 @@ const teams = [
     { name: "BIKASH", logo: "bikash.jpeg", mp: 3, w: 1, d: 0, l: 2, gf: 11, ga: 11, gd: 0, pts: 3 },
     { name: "PARU DAI", logo: "parudai.jpeg", mp: 3, w: 2, d: 0, l: 1, gf: 10, ga: 8, gd: 2, pts: 6 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 3, w: 2, d: 0, l: 1, gf: 11, ga: 6, gd: 5, pts: 6 },
-    { name: "ANJAN", logo: "anjan.jpeg", mp: 2, w: 1, d: 0, l: 1, gf: 5, ga: 5, gd: 0, pts: 3 },
-    { name: "DEV", logo: "dev.jpeg", mp: 1, w: 1, d: 0, l: 0, gf: 3, ga: 0, gd: 2, pts: 3 },
+    { name: "ANJAN", logo: "anjan.jpeg", mp: 3, w: 1, d: 0, l: 2, gf: 5, ga: 7, gd: -2, pts: 3 },
+    { name: "DEV", logo: "dev.jpeg", mp: 2, w: 2, d: 0, l: 0, gf: 5, ga: 0, gd: 5, pts: 6 },
     { name: "ANISH", logo: "anish.jpeg", mp: 4, w: 0, d: 0, l: 4, gf: 5, ga: 17, gd: -12, pts: 0 },
     { name: "RAAJ", logo: "raaj.jpeg", mp: 2, w: 1, d: 0, l: 1, gf: 6, ga: 8, gd: -2, pts: 3 },
     { name: "BINAYA", logo: "binaya.jpeg", mp: 3, w: 2, d: 0, l: 1, gf: 9, ga: 6, gd: 3, pts: 6 }
