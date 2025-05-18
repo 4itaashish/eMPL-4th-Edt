@@ -448,3 +448,427 @@ footer {
         padding: 6px 3px;
     }
 }
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Background with leaves */
+.leaves-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background-color: #3a1c71;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.leaf {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transform: scale(0);
+}
+
+/* Header and Navigation */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    position: relative;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #d434fe;
+}
+
+nav ul li a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #d434fe;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 40px;
+}
+
+.content {
+    width: 50%;
+    padding: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.welcome-text {
+    font-size: 64px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.name-text {
+    font-size: 32px;
+    color: #d434fe;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #4ecdc4;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.message {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.from-text {
+    font-style: italic;
+    color: #d434fe;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #d434fe;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.cta-button:hover {
+    background-color: #b92de0;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(212, 52, 254, 0.2);
+}
+
+/* Footer */
+footer {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 15px;
+    color: #999;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #d434fe;
+    transform: translateY(-3px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floatLeaf {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+    50% {
+        transform: translate(10px, 10px) rotate(5deg) scale(1.05);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+}
+
+@keyframes appearLeaf {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .leaves-bg {
+        width: 35%;
+    }
+    
+    .content {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .leaves-bg {
+        width: 100%;
+        height: 40%;
+        top: 0;
+    }
+    
+    main {
+        justify-content: center;
+        padding-top: 150px;
+    }
+    
+    .content {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    header {
+        justify-content: space-between;
+    }
+    
+    footer {
+        justify-content: center;
+    }
+    
+    .social-icons a {
+        margin: 0 8px;
+    }
+}
+
+/* Add these specific device media queries after the existing responsive section */
+
+/* iPhone 11 (828 x 1792) */
+@media screen and (device-width: 414px) and (device-height: 896px),
+       screen and (width: 375px) and (height: 812px) {
+    .leaves-bg {
+        width: 100%;
+        height: 35%;
+    }
+    
+    main {
+        justify-content: center;
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+    
+    .content {
+        width: 90%;
+        padding: 25px;
+        margin-top: 20px;
+    }
+    
+    .welcome-text {
+        font-size: 48px;
+    }
+    
+    .name-text {
+        font-size: 28px;
+    }
+    
+    .subtitle {
+        font-size: 16px;
+    }
+    
+    .message {
+        font-size: 14px;
+    }
+    
+    .cta-button {
+        padding: 10px 25px;
+    }
+    
+    header {
+        padding: 15px 20px;
+    }
+    
+    footer {
+        padding: 15px;
+    }
+}
+
+/* Redmi Note 11S (1080 x 2400) */
+@media screen and (device-width: 393px) and (device-height: 851px),
+       screen and (width: 360px) and (height: 800px) {
+    .leaves-bg {
+        width: 100%;
+        height: 40%;
+    }
+    
+    main {
+        justify-content: center;
+        padding: 130px 15px 30px 15px;
+    }
+    
+    .content {
+        width: 92%;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    
+    .welcome-text {
+        font-size: 42px;
+    }
+    
+    .name-text {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .message {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .from-text {
+        margin-bottom: 20px;
+    }
+    
+    .cta-button {
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+    
+    .social-icons a {
+        font-size: 16px;
+        margin: 0 6px;
+    }
+}
+
+/* General mobile improvements */
+@media screen and (max-width: 480px) {
+    /* Improve touch targets */
+    nav ul li {
+        margin-left: 20px;
+    }
+    
+    nav ul li a {
+        font-size: 18px;
+        padding: 8px;
+    }
+    
+    .menu-toggle {
+        font-size: 28px;
+        padding: 8px;
+    }
+    
+    .social-icons a {
+        padding: 8px;
+    }
+    
+    /* Adjust leaf sizes for smaller screens */
+    .leaf {
+        transform-origin: center;
+        transform: scale(0.8);
+    }
+    
+    /* Improve mobile nav when displayed */
+    nav ul.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        z-index: 100;
+    }
+    
+    nav ul.show li {
+        margin: 10px 0;
+    }
+}
+
+/* Fix for notch/punch-hole displays */
+@supports (padding-top: env(safe-area-inset-top)) {
+    body {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+    }
+}
+
+
