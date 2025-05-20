@@ -29,11 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
 const teams = [
     { name: "ASAL", logo: "./asal.jpeg", mp: 9, w: 5, d: 0, l: 4, gf: 23, ga: 23, gd: 0, pts: 15 },
     { name: "BIKASH", logo: "bikash.jpeg", mp: 10, w: 4, d: 0, l: 6, gf: 23, ga: 28, gd: -5, pts: 12 },
-    { name: "PARU DAI", logo: "parudai.jpeg", mp: 8, w: 5, d: 1, l: 2, gf: 21, ga: 15, gd: 6, pts: 16 },
+    { name: "PARU DAI", logo: "parudai.jpeg", mp: 9, w: 5, d: 1, l: 3, gf: 21, ga: 18, gd: 3, pts: 16 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 9, w: 6, d: 1, l: 2, gf: 28, ga: 12, gd: 16, pts: 19 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 9, w: 5, d: 0, l: 4, gf: 23, ga: 17, gd: 6, pts: 15 },
     { name: "DEV", logo: "dev.jpeg", mp: 9, w: 5, d: 2, l: 2, gf: 16, ga: 11, gd: 5, pts: 17 },
-    { name: "ANISH", logo: "anish.jpeg", mp: 9, w: 4, d: 0, l: 5, gf: 22, ga: 29, gd: -7, pts: 9 },
+    { name: "ANISH", logo: "anish.jpeg", mp: 10, w: 5, d: 0, l: 5, gf: 25, ga: 29, gd: -4, pts: 15 },
     { name: "RAAJ", logo: "raaj.jpeg", mp: 10, w: 2, d: 0, l: 8, gf: 17, ga: 35, gd: -18, pts: 6 },
     { name: "BINAYA", logo: "binaya.jpeg", mp: 9, w: 3, d: 0, l: 6, gf: 22, ga: 24, gd: -2, pts: 9 }
 ];
