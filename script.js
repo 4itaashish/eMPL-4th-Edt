@@ -27,14 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Team data - replace with your actual data
 const teams = [
-    { name: "ASAL", logo: "./asal.jpeg", mp: 11, w: 6, d: 1, l: 4, gf: 25, ga: 23, gd: 2, pts: 19 },
+    { name: "ASAL", logo: "./asal.jpeg", mp: 9, w: 5, d: 0, l: 4, gf: 23, ga: 23, gd: 0, pts: 15 },
     { name: "BIKASH", logo: "bikash.jpeg", mp: 8, w: 3, d: 0, l: 5, gf: 19, ga: 24, gd: -5, pts: 9 },
     { name: "PARU DAI", logo: "parudai.jpeg", mp: 7, w: 4, d: 1, l: 2, gf: 18, ga: 13, gd: 5, pts: 13 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 8, w: 5, d: 1, l: 2, gf: 21, ga: 11, gd: 10, pts: 16 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 9, w: 5, d: 0, l: 4, gf: 25, ga: 18, gd: 7, pts: 15 },
     { name: "DEV", logo: "dev.jpeg", mp: 8, w: 5, d: 2, l: 1, gf: 15, ga: 8, gd: 7, pts: 17 },
-    { name: "ANISH", logo: "anish.jpeg", mp: 9, w: 3, d: 0, l: 5, gf: 19, ga: 30, gd: -11, pts: 9 },
-    { name: "RAAJ", logo: "raaj.jpeg", mp: 10, w: 2, d: 1, l: 7, gf: 18, ga: 33, gd: -15, pts: 7 },
+    { name: "ANISH", logo: "anish.jpeg", mp: 8, w: 3, d: 0, l: 5, gf: 19, ga: 28, gd: -9, pts: 9 },
+    { name: "RAAJ", logo: "raaj.jpeg", mp: 9, w: 2, d: 0, l: 7, gf: 18, ga: 33, gd: -15, pts: 6 },
     { name: "BINAYA", logo: "binaya.jpeg", mp: 8, w: 3, d: 0, l: 5, gf: 20, ga: 19, gd: 1, pts: 9 }
 ];
 
