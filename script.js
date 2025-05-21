@@ -33,9 +33,9 @@ const teams = [
     { name: "AASHISH", logo: "aashish.jpeg", mp: 10, w: 7, d: 1, l: 2, gf: 30, ga: 13, gd: 17, pts: 22 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 10, w: 6, d: 0, l: 4, gf: 28, ga: 21, gd: 7, pts: 18 },
     { name: "DEV", logo: "dev.jpeg", mp: 9, w: 5, d: 2, l: 2, gf: 16, ga: 11, gd: 5, pts: 17 },
-    { name: "ANISH", logo: "anish.jpeg", mp: 11, w: 5, d: 0, l: 6, gf: 27, ga: 33, gd: -6, pts: 15 },
+    { name: "ANISH", logo: "anish.jpeg", mp: 12, w: 6, d: 0, l: 6, gf: 32, ga: 36, gd: -4, pts: 18 },
     { name: "RAAJ", logo: "raaj.jpeg", mp: 10, w: 2, d: 0, l: 8, gf: 17, ga: 35, gd: -18, pts: 6 },
-    { name: "BINAYA", logo: "binaya.jpeg", mp: 9, w: 3, d: 0, l: 6, gf: 22, ga: 24, gd: -2, pts: 9 }
+    { name: "BINAYA", logo: "binaya.jpeg", mp: 10, w: 3, d: 0, l: 7, gf: 25, ga: 29, gd: -4, pts: 9 }
 ];
 
 // Function to sort and rank teams
