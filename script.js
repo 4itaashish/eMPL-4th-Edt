@@ -32,10 +32,10 @@ const teams = [
     { name: "PARU DAI", logo: "parudai.jpeg", mp: 12, w: 6, d: 1, l: 5, gf: 28, ga: 25, gd: 3, pts: 19 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 12, w: 9, d: 1, l: 2, gf: 35, ga: 15, gd: 20, pts: 28 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 11, w: 7, d: 0, l: 4, gf: 31, ga: 23, gd: 8, pts: 21 },
-    { name: "DEV", logo: "dev.jpeg", mp: 10, w: 5, d: 2, l: 3, gf: 18, ga: 14, gd: 4, pts: 17 },
+    { name: "DEV", logo: "dev.jpeg", mp: 11, w: 6, d: 2, l: 3, gf: 19, ga: 14, gd: 5, pts: 20 },
     { name: "ANISH", logo: "anish.jpeg", mp: 14, w: 7, d: 0, l: 7, gf: 34, ga: 39, gd: -5, pts: 21 },
     { name: "RAAJ", logo: "raaj.jpeg", mp: 10, w: 2, d: 0, l: 8, gf: 17, ga: 35, gd: -18, pts: 6 },
-    { name: "BINAYA", logo: "binaya.jpeg", mp: 11, w: 4, d: 0, l: 7, gf: 29, ga: 31, gd: -2, pts: 12 }
+    { name: "BINAYA", logo: "binaya.jpeg", mp: 12, w: 4, d: 0, l: 8, gf: 29, ga: 32, gd: -3, pts: 12 }
 ];
 
 // Function to sort and rank teams
