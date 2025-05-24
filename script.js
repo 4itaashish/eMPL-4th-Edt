@@ -32,9 +32,9 @@ const teams = [
     { name: "PARU DAI", logo: "parudai.jpeg", mp: 13, w: 7, d: 1, l: 5, gf: 33, ga: 25, gd: 8, pts: 22 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 14, w: 11, d: 1, l: 2, gf: 44, ga: 16, gd: 28, pts: 34 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 14, w: 9, d: 1, l: 4, gf: 47, ga: 28, gd: 19, pts: 28 },
-    { name: "DEV", logo: "dev.jpeg", mp: 11, w: 6, d: 2, l: 3, gf: 19, ga: 14, gd: 5, pts: 20 },
+    { name: "DEV", logo: "dev.jpeg", mp: 12, w: 7, d: 2, l: 3, gf: 28, ga: 16, gd: 12, pts: 23 },
     { name: "ANISH", logo: "anish.jpeg", mp: 15, w: 7, d: 0, l: 8, gf: 35, ga: 47, gd: -12, pts: 21 },
-    { name: "RAAJ", logo: "raaj.jpeg", mp: 12, w: 2, d: 0, l: 10, gf: 18, ga: 46, gd: -28, pts: 6 },
+    { name: "RAAJ", logo: "raaj.jpeg", mp: 13, w: 2, d: 0, l: 11, gf: 20, ga: 55, gd: -35, pts: 6 },
     { name: "BINAYA", logo: "binaya.jpeg", mp: 14, w: 5, d: 0, l: 9, gf: 36, ga: 39, gd: -3, pts: 15 }
 ];
 
