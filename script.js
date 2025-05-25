@@ -27,15 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Team data - replace with your actual data
 const teams = [
-    { name: "ASAL", logo: "./asal.jpeg", mp: 15, w: 7, d: 1, l: 7, gf: 37, ga: 37, gd: 0, pts: 22 },
-    { name: "BIKASH", logo: "bikash.jpeg", mp: 14, w: 4, d: 0, l: 10, gf: 26, ga: 41, gd: -15, pts: 12 },
-    { name: "PARU DAI", logo: "parudai.jpeg", mp: 14, w: 7, d: 1, l: 6, gf: 34, ga: 30, gd: 4, pts: 22 },
+    { name: "ASAL", logo: "./asal.jpeg", mp: 16, w: 8, d: 1, l: 7, gf: 40, ga: 37, gd: 3, pts: 25 },
+    { name: "BIKASH", logo: "bikash.jpeg", mp: 16, w: 4, d: 0, l: 12, gf: 26, ga: 47, gd: -21, pts: 12 },
+    { name: "PARU DAI", logo: "parudai.jpeg", mp: 16, w: 9, d: 1, l: 6, gf: 40, ga: 30, gd: 10, pts: 28 },
     { name: "AASHISH", logo: "aashish.jpeg", mp: 16, w: 11, d: 1, l: 4, gf: 52, ga: 26, gd: 26, pts: 34 },
     { name: "ANJAN", logo: "anjan.jpeg", mp: 16, w: 11, d: 1, l: 4, gf: 55, ga: 32, gd: 23, pts: 34 },
-    { name: "DEV", logo: "dev.jpeg", mp: 15, w: 10, d: 2, l: 3, gf: 42, ga: 24, gd: 18, pts: 32 },
+    { name: "DEV", logo: "dev.jpeg", mp: 16, w: 11, d: 2, l: 3, gf: 45, ga: 24, gd: 21, pts: 35 },
     { name: "ANISH", logo: "anish.jpeg", mp: 16, w: 8, d: 0, l: 8, gf: 40, ga: 49, gd: -9, pts: 24 },
     { name: "RAAJ", logo: "raaj.jpeg", mp: 16, w: 2, d: 0, l: 14, gf: 25, ga: 68, gd: -43, pts: 6 },
-    { name: "BINAYA", logo: "binaya.jpeg", mp: 14, w: 5, d: 0, l: 9, gf: 36, ga: 39, gd: -3, pts: 15 }
+    { name: "BINAYA", logo: "binaya.jpeg", mp: 16, w: 5, d: 0, l: 11, gf: 36, ga: 45, gd: -9, pts: 15 }
 ];
 
 // Function to sort and rank teams
