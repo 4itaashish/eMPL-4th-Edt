@@ -50,10 +50,10 @@ const season2Teams = [
 // Season 3 group data (initialized with 0 stats)
 const season3GroupA = [
   { name: "ANJAN", mp: 2, w: 1, d: 0, l: 1, gf: 4, ga: 3, gd: 1, pts: 3 },
-  { name: "PARU DAI", mp: 1, w: 1, d: 0, l: 0, gf: 2, ga: 1, gd: 1, pts: 3 },
+  { name: "PARU DAI", mp: 2, w: 2, d: 0, l: 0, gf: 7, ga: 2, gd: 5, pts: 6 },
   { name: "ANISH", mp: 2, w: 0, d: 0, l: 2, gf: 1, ga: 5, gd: -4, pts: 0 },
   { name: "BIKASH", mp: 1, w: 0, d: 0, l: 1, gf: 0, ga: 7, gd: -7, pts: 0 },
-  { name: "ASAL", mp: 2, w: 2, d: 0, l: 0, gf: 9, ga: 0, gd: 9, pts: 6 },
+  { name: "ASAL", mp: 3, w: 2, d: 0, l: 1, gf: 10, ga: 5, gd: 5, pts: 6 },
 ]
 
 const season3GroupB = [
