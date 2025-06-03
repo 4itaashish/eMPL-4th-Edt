@@ -57,11 +57,11 @@ const season3GroupA = [
 ]
 
 const season3GroupB = [
-  { name: "AASHISH", mp: 2, w: 1, d: 1, l: 0, gf: 11, ga: 3, gd: 8, pts: 4 },
+  { name: "AASHISH", mp: 3, w: 2, d: 1, l: 0, gf: 14, ga: 3, gd: 11, pts: 7 },
   { name: "KUSHAL", mp: 3, w: 2, d: 1, l: 0, gf: 15, ga: 2, gd: 13, pts: 7 },
   { name: "SAJINA", mp: 3, w: 0, d: 0, l: 3, gf: 2, ga: 22, gd: -22, pts: 0 },
   { name: "DEV", mp: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-  { name: "BINAYA", mp: 2, w: 1, d: 0, l: 1, gf: 5, ga: 6, gd: -1, pts: 3 },
+  { name: "BINAYA", mp: 3, w: 1, d: 0, l: 2, gf: 5, ga: 9, gd: -4, pts: 3 },
 ]
 
 function loadFixtures(season) {
