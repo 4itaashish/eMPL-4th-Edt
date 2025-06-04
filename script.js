@@ -51,8 +51,8 @@ const season2Teams = [
 const season3GroupA = [
   { name: "ANJAN", mp: 6, w: 3, d: 1, l: 2, gf: 13, ga: 9, gd: 4, pts: 10 },
   { name: "PARU DAI", mp: 6, w: 4, d: 2, l: 0, gf: 17, ga: 7, gd: 10, pts: 14 },
-  { name: "ANISH", mp: 6, w: 1, d: 0, l: 5, gf: 10, ga: 16, gd: -6, pts: 3 },
-  { name: "BIKASH", mp: 4, w: 1, d: 1, l: 2, gf: 8, ga: 19, gd: -11, pts: 4 },
+  { name: "ANISH", mp: 7, w: 1, d: 0, l: 6, gf: 11, ga: 19, gd: -8, pts: 3 },
+  { name: "BIKASH", mp: 5, w: 2, d: 1, l: 2, gf: 11, ga: 20, gd: -9, pts: 7 },
   { name: "ASAL", mp: 6, w: 3, d: 0, l: 3, gf: 14, ga: 11, gd: 3, pts: 9 },
 ]
 
