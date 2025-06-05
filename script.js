@@ -57,10 +57,10 @@ const season3GroupA = [
 ]
 
 const season3GroupB = [
-  { name: "AASHISH", mp: 7, w: 4, d: 2, l: 1, gf: 24, ga: 11, gd: 13, pts: 14 },
-  { name: "KUSHAL", mp: 5, w: 3, d: 1, l: 1, gf: 20, ga: 5, gd: 15, pts: 10 },
-  { name: "SAJINA", mp: 6, w: 2, d: 0, l: 4, gf: 9, ga: 24, gd: -15, pts: 6 },
-  { name: "DEV", mp: 6, w: 4, d: 1, l: 1, gf: 16, ga: 10, gd: 6, pts: 13 },
+  { name: "AASHISH", mp: 8, w: 4, d: 2, l: 2, gf: 24, ga: 11, gd: 13, pts: 14 },
+  { name: "KUSHAL", mp: 8, w: 3, d: 1, l: 4, gf: 20, ga: 5, gd: 15, pts: 10 },
+  { name: "SAJINA", mp: 8, w: 2, d: 0, l: 6, gf: 9, ga: 24, gd: -15, pts: 6 },
+  { name: "DEV", mp: 8, w: 4, d: 1, l: 3, gf: 16, ga: 10, gd: 6, pts: 13 },
   { name: "BINAYA", mp: 8, w: 1, d: 0, l: 7, gf: 5, ga: 24, gd: -19, pts: 3 },
 ]
 
