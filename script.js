@@ -49,18 +49,18 @@ const season2Teams = [
 
 // Season 3 group data (initialized with 0 stats)
 const season3GroupA = [
-  { name: "ANJAN", mp: 6, w: 3, d: 1, l: 2, gf: 13, ga: 9, gd: 4, pts: 10 },
-  { name: "PARU DAI", mp: 6, w: 4, d: 2, l: 0, gf: 17, ga: 7, gd: 10, pts: 14 },
-  { name: "ANISH", mp: 7, w: 1, d: 0, l: 6, gf: 11, ga: 19, gd: -8, pts: 3 },
-  { name: "BIKASH", mp: 5, w: 2, d: 1, l: 2, gf: 11, ga: 20, gd: -9, pts: 7 },
-  { name: "ASAL", mp: 6, w: 3, d: 0, l: 3, gf: 14, ga: 11, gd: 3, pts: 9 },
+  { name: "ANJAN", mp: 7, w: 3, d: 1, l: 3, gf: 14, ga: 11, gd: 3, pts: 10 },
+  { name: "PARU DAI", mp: 7, w: 5, d: 2, l: 0, gf: 19, ga: 7, gd: 12, pts: 17 },
+  { name: "ANISH", mp: 8, w: 1, d: 0, l: 7, gf: 11, ga: 21, gd: -10, pts: 3 },
+  { name: "BIKASH", mp: 6, w: 2, d: 1, l: 3, gf: 13, ga: 24, gd: -11, pts: 7 },
+  { name: "ASAL", mp: 8, w: 5, d: 0, l: 3, gf: 20, ga: 14, gd: 6, pts: 15 },
 ]
 
 const season3GroupB = [
-  { name: "AASHISH", mp: 5, w: 2, d: 2, l: 1, gf: 17, ga: 9, gd: 8, pts: 7 },
+  { name: "AASHISH", mp: 6, w: 3, d: 2, l: 1, gf: 21, ga: 11, gd: 10, pts: 10 },
   { name: "KUSHAL", mp: 4, w: 3, d: 1, l: 0, gf: 18, ga: 2, gd: 16, pts: 10 },
   { name: "SAJINA", mp: 5, w: 2, d: 0, l: 3, gf: 8, ga: 22, gd: -14, pts: 6 },
-  { name: "DEV", mp: 2, w: 1, d: 1, l: 0, gf: 6, ga: 3, gd: 3, pts: 4 },
+  { name: "DEV", mp: 3, w: 1, d: 1, l: 1, gf: 8, ga: 7, gd: 1, pts: 4 },
   { name: "BINAYA", mp: 6, w: 1, d: 0, l: 5, gf: 5, ga: 18, gd: -13, pts: 3 },
 ]
 
